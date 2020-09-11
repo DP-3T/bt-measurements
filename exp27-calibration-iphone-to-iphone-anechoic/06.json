@@ -1,0 +1,1056 @@
+[
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:02:40.378000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591869760.378000000",
+          "frame.time_delta": "0.009000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "152918.222000000",
+          "frame.number": "410",
+          "frame.len": "43",
+          "frame.cap_len": "43",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "40",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000022",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "7d:f0:d0:6a:e0:b3",
+          "bthci_evt.data_length": "28",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "94:c6:a4:5d:8a:e5:59:80:06:d4:c2:b3:0d:1d:ed:74:30:ec:89:3f"
+            }
+          },
+          "bthci_evt.rssi": "-92"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:11:01.724000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591870261.724000000",
+          "frame.time_delta": "0.006000000",
+          "frame.time_delta_displayed": "501.346000000",
+          "frame.time_relative": "153419.568000000",
+          "frame.number": "4010",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000003",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "04:68:80:ee:c6:19",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "f5:ca:48:90:e2:38:3d:7b:c4:8c:c7:50:10:f8:d7:f4:a7:06:f5:4c"
+            }
+          },
+          "bthci_evt.rssi": "-68"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:11:05.584000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591870265.584000000",
+          "frame.time_delta": "0.055000000",
+          "frame.time_delta_displayed": "3.860000000",
+          "frame.time_relative": "153423.428000000",
+          "frame.number": "4146",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x000000a3",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "04:68:80:ee:c6:19",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "f5:ca:48:90:e2:38:3d:7b:c4:8c:c7:50:10:f8:d7:f4:a7:06:f5:4c"
+            }
+          },
+          "bthci_evt.rssi": "-61"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:16:06.045000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591870566.045000000",
+          "frame.time_delta": "0.057000000",
+          "frame.time_delta_displayed": "300.461000000",
+          "frame.time_relative": "153723.889000000",
+          "frame.number": "5220",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000093",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "04:68:80:ee:c6:19",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "f5:ca:48:90:e2:38:3d:7b:c4:8c:c7:50:10:f8:d7:f4:a7:06:f5:4c"
+            }
+          },
+          "bthci_evt.rssi": "-49"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:21:09.986000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591870869.986000000",
+          "frame.time_delta": "0.002000000",
+          "frame.time_delta_displayed": "303.941000000",
+          "frame.time_relative": "154027.830000000",
+          "frame.number": "5296",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000003",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "04:68:80:ee:c6:19",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "f5:ca:48:90:e2:38:3d:7b:c4:8c:c7:50:10:f8:d7:f4:a7:06:f5:4c"
+            }
+          },
+          "bthci_evt.rssi": "-47"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:26:13.903000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591871173.903000000",
+          "frame.time_delta": "0.007000000",
+          "frame.time_delta_displayed": "303.917000000",
+          "frame.time_relative": "154331.747000000",
+          "frame.number": "5362",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000003",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "1d:65:44:da:46:5c",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "86:6e:16:a6:cb:77:12:e4:8b:63:41:06:84:b4:d8:cf:2c:b4:c4:ec"
+            }
+          },
+          "bthci_evt.rssi": "-49"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:31:18.128000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591871478.128000000",
+          "frame.time_delta": "0.158000000",
+          "frame.time_delta_displayed": "304.225000000",
+          "frame.time_relative": "154635.972000000",
+          "frame.number": "5507",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000023",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "1d:65:44:da:46:5c",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "86:6e:16:a6:cb:77:12:e4:8b:63:41:06:84:b4:d8:cf:2c:b4:c4:ec"
+            }
+          },
+          "bthci_evt.rssi": "-50"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:36:21.922000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591871781.922000000",
+          "frame.time_delta": "0.007000000",
+          "frame.time_delta_displayed": "303.794000000",
+          "frame.time_relative": "154939.766000000",
+          "frame.number": "5575",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000003",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "1d:65:44:da:46:5c",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "86:6e:16:a6:cb:77:12:e4:8b:63:41:06:84:b4:d8:cf:2c:b4:c4:ec"
+            }
+          },
+          "bthci_evt.rssi": "-47"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:41:25.997000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591872085.997000000",
+          "frame.time_delta": "0.034000000",
+          "frame.time_delta_displayed": "304.075000000",
+          "frame.time_relative": "155243.841000000",
+          "frame.number": "5659",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000013",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "1d:65:44:da:46:5c",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "86:6e:16:a6:cb:77:12:e4:8b:63:41:06:84:b4:d8:cf:2c:b4:c4:ec"
+            }
+          },
+          "bthci_evt.rssi": "-48"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:46:30.125000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591872390.125000000",
+          "frame.time_delta": "0.087000000",
+          "frame.time_delta_displayed": "304.128000000",
+          "frame.time_relative": "155547.969000000",
+          "frame.number": "5767",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000013",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "1a:40:f8:c1:17:3d",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "38:b9:d2:7a:6a:90:8f:f6:20:eb:6a:a5:14:99:e1:54:14:f8:d6:aa"
+            }
+          },
+          "bthci_evt.rssi": "-50"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:51:33.926000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591872693.926000000",
+          "frame.time_delta": "0.045000000",
+          "frame.time_delta_displayed": "303.801000000",
+          "frame.time_relative": "155851.770000000",
+          "frame.number": "5865",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000023",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "1a:40:f8:c1:17:3d",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "38:b9:d2:7a:6a:90:8f:f6:20:eb:6a:a5:14:99:e1:54:14:f8:d6:aa"
+            }
+          },
+          "bthci_evt.rssi": "-49"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 12:56:38.082000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591872998.082000000",
+          "frame.time_delta": "0.124000000",
+          "frame.time_delta_displayed": "304.156000000",
+          "frame.time_relative": "156155.926000000",
+          "frame.number": "5951",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000083",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "1a:40:f8:c1:17:3d",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "38:b9:d2:7a:6a:90:8f:f6:20:eb:6a:a5:14:99:e1:54:14:f8:d6:aa"
+            }
+          },
+          "bthci_evt.rssi": "-45"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 13:01:41.937000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591873301.937000000",
+          "frame.time_delta": "0.013000000",
+          "frame.time_delta_displayed": "303.855000000",
+          "frame.time_relative": "156459.781000000",
+          "frame.number": "6025",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000093",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "1a:40:f8:c1:17:3d",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "38:b9:d2:7a:6a:90:8f:f6:20:eb:6a:a5:14:99:e1:54:14:f8:d6:aa"
+            }
+          },
+          "bthci_evt.rssi": "27"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 13:06:45.938000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591873605.938000000",
+          "frame.time_delta": "0.007000000",
+          "frame.time_delta_displayed": "304.001000000",
+          "frame.time_relative": "156763.782000000",
+          "frame.number": "6113",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000023",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "33:71:da:51:64:51",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "3b:6c:5c:44:da:0a:9b:74:04:a4:3e:65:23:80:a8:46:2f:ea:47:7e"
+            }
+          },
+          "bthci_evt.rssi": "-50"
+        }
+      }
+    }
+  }
+
+  ,
+  {
+    "_index": "packets-2020-06-11",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Jun 11, 2020 13:11:49.968000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1591873909.968000000",
+          "frame.time_delta": "0.014000000",
+          "frame.time_delta_displayed": "304.030000000",
+          "frame.time_relative": "157067.812000000",
+          "frame.number": "6235",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_evt:btcommon",
+          "frame.coloring_rule.name": "HCI Rx RPI",
+          "frame.coloring_rule.string": "(btcommon.eir_ad.entry.uuid_16 == 0xfd6f) and  bthci_evt"
+        },
+        "bluetooth": {
+          "bluetooth.addr_str": "controller",
+          "bluetooth.src_str": "controller",
+          "bluetooth.addr_str": "host",
+          "bluetooth.dst_str": "host"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000001"
+        },
+        "bthci_evt": {
+          "bthci_evt.code": "62",
+          "bthci_evt.param_length": "43",
+          "bthci_evt.le_meta_subevent": "0x00000002",
+          "bthci_evt.le_num_reports": "1",
+          "bthci_evt.le_advts_event_type": "0x00000003",
+          "bthci_evt.le_peer_address_type": "0x00000001",
+          "bthci_evt.bd_addr": "33:71:da:51:64:51",
+          "bthci_evt.data_length": "31",
+          "btcommon.eir_ad.advertising_data": {
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "2",
+              "btcommon.eir_ad.entry.type": "1",
+              "btcommon.eir_ad.entry.flags.reserved": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_host": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_bredr_support_controller": "0x00000001",
+              "btcommon.eir_ad.entry.flags.bredr_not_supported": "0x00000000",
+              "btcommon.eir_ad.entry.flags.le_general_discoverable_mode": "0x00000001",
+              "btcommon.eir_ad.entry.flags.le_limited_discoverable_mode": "0x00000000"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "3",
+              "btcommon.eir_ad.entry.type": "3",
+              "btcommon.eir_ad.entry.uuid_16": "64879"
+            },
+            "btcommon.eir_ad.entry": {
+              "btcommon.eir_ad.entry.length": "23",
+              "btcommon.eir_ad.entry.type": "22",
+              "btcommon.eir_ad.entry.uuid_16": "64879",
+              "btcommon.eir_ad.entry.service_data": "3b:6c:5c:44:da:0a:9b:74:04:a4:3e:65:23:80:a8:46:2f:ea:47:7e"
+            }
+          },
+          "bthci_evt.rssi": "-46"
+        }
+      }
+    }
+  }
+
+]

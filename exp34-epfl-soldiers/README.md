@@ -77,6 +77,14 @@ an update shortly before the experiment that "blinded" all GAEN data in the
 packet logs. We could therefore not use the iPhone results from the experiment
 as all recorded data was `0`ed.
 
+The experiment was conducted in the EPFL BC atrium, a roughly 40m by 15m open
+space inside a large office building. The ground truth evaluation was done using
+a visual computing setup that mapped subjects to x/y coordinates on a grid
+(several cameras at different floors filmed the experiments and visual
+post-processing provided exact coordinates of the subjects during the
+experiment).
+
+
 * Duration: 4 hours (1 hour per scenario)
 * Start: 2020-07-30 14:00
 * End:   2020-07-30 18:00

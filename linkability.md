@@ -6,10 +6,10 @@ from a phone. Out of an abundance of caution, we examined the logs from our
 experiments to see if we could detect this issue.  We found a small number (38
 of 160,556) of instances in which the RPI remained fixed when the MAC rotated.
 While incorrect, this fault only raises linkability concerns for the interval
-until the RPI next changes (the total lifetime of these 38 RPIs was between 5-17
-minutes).  We also found one model, Samsung Galaxy S10, that did not rotate its
-MAC in some experiments.  This is a more serious concern, but it appears to be a
-device-specific failure.
+until the RPI next changes (the total lifetime of these 38 RPIs was between
+5-17 minutes).  We also found one model, Samsung Galaxy S10, that did not
+rotate its MAC in some experiments.  This is a more serious concern, but it
+appears to be a device-specific failure.
 
 
 ## Press statement from Google, Sept 09, 2020
@@ -24,6 +24,9 @@ statement on September 9, 2020:
 > user around, or have an extensive network of Bluetooth scanners across a 
 > wide geography, capable of constantly observing the device throughout the 
 > day to execute this attack.
+
+Google also provides more details about MAC/RPI rotations and upcoming
+mitigations in their FAQ under [Bridging MAC/RPI rotations](https://github.com/google/exposure-notifications-internals/blob/main/en-risks-and-mitigations-faq.md#bluetooth-based-tracking).
 
 
 ## Our experiments

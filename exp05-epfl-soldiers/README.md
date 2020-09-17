@@ -89,6 +89,13 @@ Goal: test baseline measurements in real-world settings and assess precision
 
 For each of the scenarios, we will assign some test subjects with varying phones to their roles. In addition, for each scenario, we have static and dynamic “canaries” who roam around. The canaries allow us to test if false contact events are recorded for specific phones/types (i.e., false positives). The canaries similarly send and receive beacons. Knowing the distance of the canaries and the strength of the sent/received beacons we can infer boundary conditions for safe distances. Each scenario starts with holding a phone with a full digital clock into the main camera.
 
+The experiment was conducted in the EPFL BC atrium, a roughly 40m by 15m open
+space inside a large office building. The ground truth evaluation was done using
+a visual computing setup that mapped subjects to x/y coordinates on a grid
+(several cameras at different floors filmed the experiments and visual
+post-processing provided exact coordinates of the subjects during the
+experiment).
+
 
 ## Scenario 1: lunch break (16 people)
 

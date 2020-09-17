@@ -110,3 +110,11 @@ tables containing `receiver_id`, `receiver_model`, `transmitter_id`,
 `ground_truth_distance`) to print nice figures for the different experiments
 and feature combinations. The resulting figures are in the
 [figures directory](./figures).
+
+
+## License and copyright
+
+The data and contents in this repository is licensed under
+[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/). Copyright of
+the experimental data and code belongs to EPFL and ETH Zurich. For other uses of
+the data or code, please reach out via e-mail.

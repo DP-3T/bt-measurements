@@ -4,6 +4,7 @@ The goal of these BLE distance/proximity experiments are to test real people
 with phones in different scenarios.
 
 The experiment was conducted on April 17, 2020.
+Data for this experiment was collected using our own pre-GAEN application.
 
 Note: the data in this experiment is superseded by experiment 34.
 
@@ -53,7 +54,24 @@ Experiments run from 07:00am to 11:30am
 Timestamps in millisec UNIX time ( Android: System.currentTimeMillis())
 
 
-## Android app
+## Pre-GAEN calibration Android app
+
+The data in this experiment was collected using our internal pre-GAEN
+calibration app. When we conducted this experiment, the Google/Apple Exposure
+Notification API was not yet publicly available. Our calibration app was set to
+transmit advertisements at ultra low power 4 times per second (we list the TX
+powers of the different devices in the next section). This is similar
+to the current GAEN API that advertises approximately at low power 4 times per
+second.
+
+When scanning for advertisements, we enabled high frequency background scanning,
+allowing for 512ms every 5120ms while the app was running in background. To save
+battery, we scanned for 20s every 60s (at the before mentioned interval). Our
+scanning interval was therefore higher than the current GAEN scanning frequency
+and our data therefore has more samples per minute.
+
+
+Calibration app parameters:
 
 * `TX_POWER_ULTRA_LOW`
 * `ADV_MODE_BALANCED`

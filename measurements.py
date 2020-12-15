@@ -23,7 +23,23 @@ MODEL_RX_TX_COMPENSATION_OUR = {
     'SM-G981B/DS': [3.0, -25.5]
 }
 
-MODEL_RX_TX_COMPENSATION = { # date: 200918
+
+MODEL_RX_TX_COMPENSATION = { # date: 201214
+# Official Google calibration of 20/12/14
+    'iPhone7': [0.0, 3.0],
+    'iPhoneXR': [0.0, 0.0],
+    'iPhoneXS': [0.0, 3.0],
+    'iPhone11': [0.0, 1.0],
+    'iPhone11Pro': [0.0, 3.0],
+    'SM-G973F': [5.0, -24.0],
+    'SM-G970F': [5.0, -24.0],
+    'SM-A405FN': [5.0, -24.0],
+    'SM-A515F': [5.0, -24.0],
+    'SM-A908B': [5.0, -24.0],
+    'SM-G981B/DS': [5.0, -24.0] # SM-G981B in table
+}
+
+MODEL_RX_TX_COMPENSATION_200918 = { # date: 200918
 # Official Google calibration of 20/09/18
     'iPhone7': [0.0, 3.0],
     'iPhoneXR': [0.0, 0.0],

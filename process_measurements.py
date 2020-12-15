@@ -28,18 +28,21 @@ def create_precision_recall(exp, image_name, exp_title):
 	data_200613 = []
 	data_200813 = []
 	data_200918 = []
+	data_201214 = []
 	data_our = []
 	for _, dbname in exp:
 		data_200530 += get_attenuations(dbname, compensation=MODEL_RX_TX_COMPENSATION_200530)
 		data_200613 += get_attenuations(dbname, compensation=MODEL_RX_TX_COMPENSATION_200613)
 		data_200813 += get_attenuations(dbname, compensation=MODEL_RX_TX_COMPENSATION_200813)
-		data_200918 += get_attenuations(dbname, compensation=MODEL_RX_TX_COMPENSATION)
+		data_200918 += get_attenuations(dbname, compensation=MODEL_RX_TX_COMPENSATION_200918)
+		data_201214 += get_attenuations(dbname, compensation=MODEL_RX_TX_COMPENSATION)
 		data_our += get_attenuations(dbname, compensation=MODEL_RX_TX_COMPENSATION_OUR)
 
 	#precision_recall(data_200530, 30, 80, title=exp_title+": precision/recall for all scenarios (200530)", filename=image_name.format("200530"))
 	precision_recall(data_200613, 30, 80, title=exp_title+": precision/recall for all scenarios (200613)", filename=image_name.format("200613"))
 	precision_recall(data_200813, 30, 80, title=exp_title+": precision/recall for all scenarios (200813)", filename=image_name.format("200813"))
 	precision_recall(data_200918, 30, 80, title=exp_title+": precision/recall for all scenarios (200918)", filename=image_name.format("200918"))
+	precision_recall(data_201214, 30, 80, title=exp_title+": precision/recall for all scenarios (201214)", filename=image_name.format("201214"))
 	precision_recall(data_our, 30, 80, title=exp_title+": precision/recall for all scenarios (our measurements)", filename=image_name.format("our"))
 	precision_recall_table(data_200918, 30, 80)
 

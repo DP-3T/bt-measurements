@@ -31,12 +31,12 @@ MODEL_RX_TX_COMPENSATION = { # date: 201214
     'iPhoneXS': [0.0, 3.0],
     'iPhone11': [0.0, 1.0],
     'iPhone11Pro': [0.0, 3.0],
-    'SM-G973F': [5.0, -24.0],
-    'SM-G970F': [5.0, -24.0],
-    'SM-A405FN': [5.0, -24.0],
-    'SM-A515F': [5.0, -24.0],
-    'SM-A908B': [5.0, -24.0],
-    'SM-G981B/DS': [5.0, -24.0] # SM-G981B in table
+    'SM-G973F': [2.0, -29.0],
+    'SM-G970F': [5.0, -25.0],
+    'SM-A405FN': [2.0, -23.0],
+    'SM-A515F': [2.0, -28.0],
+    'SM-A908B': [5.0, -25.0],
+    'SM-G981B/DS': [5.0, -25.0] # SM-G981B in table
 }
 
 MODEL_RX_TX_COMPENSATION_200918 = { # date: 200918
